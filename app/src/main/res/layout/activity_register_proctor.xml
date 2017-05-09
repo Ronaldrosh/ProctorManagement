@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_proctor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ronaldfernandes.proctormanagement.RegisterProctor">
+    <include
+        layout="@layout/appbar"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="56dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="ESN"
+            android:id="@+id/esn" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_name"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/esn"
+            android:layout_alignParentEnd="true"
+            android:hint="First Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/register_password"
+            android:layout_below="@+id/register_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/register_name"
+            android:hint="Password" />
+
+        <Button
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/buttonRegister"
+            android:layout_below="@+id/phone"
+            android:layout_alignEnd="@+id/register_email"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/register_email"
+            android:layout_below="@+id/register_password"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/register_password"
+            android:hint="Email" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phone"
+            android:layout_below="@+id/register_email"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/register_password"
+            android:hint="Phone" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

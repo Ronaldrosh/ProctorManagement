@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scholarship_other"
+    android:layout_width="match_parent"
+    android:background="@drawable/leave"
+    android:layout_height="match_parent"
+    tools:context="com.example.ronaldfernandes.proctormanagement.ScholarshipOther">
+    <include
+        layout="@layout/appbar"
+        />
+
+
+    <TextView
+        android:text="Select Revelant Option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_marginTop="77dp"
+        android:textSize="16sp"
+
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:text="Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textSize="16sp"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/editText" />
+
+    <TextView
+        android:text="Select Revelant Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginTop="70dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/editText"
+        android:hint="01/01/2000"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+</RelativeLayout>

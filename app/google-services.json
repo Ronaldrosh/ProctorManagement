@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "263234202639",
+    "firebase_url": "https://e-proctor-28601.firebaseio.com",
+    "project_id": "e-proctor-28601",
+    "storage_bucket": "e-proctor-28601.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263234202639:android:fdf147f7c937e055",
+        "android_client_info": {
+          "package_name": "com.example.ronaldfernandes.proctormanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263234202639-uo0kj45if27nb45cdqe3ug8j2resdqcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPLeCcpvvWvRn6zp4d-tW9Se_F91ovcTk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
